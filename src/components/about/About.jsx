@@ -23,7 +23,7 @@ const About = () => {
             <article className="about__card">
               <FaBrain className='about__icon'/>
               <h5>Attitude</h5>
-              <small>Extemely hungry and loves to learn</small>
+              <small>Loves to learn</small>
             </article>
 
             <article className="about__card">
@@ -40,7 +40,7 @@ const About = () => {
             </div>
             
             <p>
-             Hi! I'm a computer engineering student who loves tech. I know I still have much to learn, so it keeps me even more motivated and open-minded. As cliche as it may sound, my favorite book is unapologetically 'Atomic Habits' by James Clear 
+             Hi! I'm a computer engineering student who loves tech. I know I still have much to learn, so it keeps me even more motivated and open-minded. As cliche as it may sound, my favorite book is unapologetically 'Atomic Habits' by James Clear. 
             </p>
 
             <a href="#contact" className="btn btn-primary">Let's Talk</a>

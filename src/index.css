@@ -13,12 +13,12 @@
 
 /*CSS Variables*/
 :root{
-   --color-bg: #2E3047;
-   --color-bg-variant: #53556A;
-   --color-primary: #3BBA9C;
-   --color-primary-variant: #707793;
-   --color-white: #fff;
-   --color-light: rgba(255,255,255,0.6);
+   --color-bg: #F8F9FF;
+   --color-bg-variant: #EFEEFD;
+   --color-primary: #7453DE;
+   --color-primary-variant: #4120A9;
+   --color-white: #343434;
+   --color-light: #343434;
 
    --container-width-lg: 75%;
    --container-width-md: 86%;
@@ -99,7 +99,7 @@ a:hover{
 }
 
 .btn:hover{
-   background: var(--color-white);
+   background: var( --color-primary-variant);
    color: var(--color-bg);
    border-color: transparent;
 }

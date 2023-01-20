@@ -10,6 +10,10 @@ header{
     position: relative;
 }
 
+h1{
+    color: var(--color-primary);
+}
+
 /*=--------CTA--------*/
 .cta{
     margin-top: 2.5rem;
@@ -24,8 +28,13 @@ header{
     flex-direction: column;
     align-items: center;
     position: absolute;
+    font-size: 1.5rem;
     left: 0;
     bottom: 3rem;
+}
+
+.header__socials a:hover{
+    color: var( --color-primary-variant);
 }
 
 .header__socials::after{
@@ -37,8 +46,8 @@ header{
 
 /*---------ME--------*/
 .me{
-    width: 22rem;
-    height: 30rem;
+    width: 27rem;
+    height: 35rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

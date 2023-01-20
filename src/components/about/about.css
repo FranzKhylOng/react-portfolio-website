@@ -36,11 +36,13 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    transition: var(--transition);
 }
 
 .about__card:hover{
     background-color: transparent;
-    background-color: var(--color-primary-variant);
+    border-color: var(--color-primary-variant);
+    background-color: var(--color-bg);
     cursor: default;
 }
 

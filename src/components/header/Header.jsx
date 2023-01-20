@@ -3,7 +3,6 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
 import HeaderSocial from './HeaderSocials'
-import Zoom from 'react-reveal/Zoom';
 
 
 const Header = () => {
@@ -11,9 +10,7 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <Zoom>
           <h1>Franz Khyl Ong</h1>
-        </Zoom>
         <h5 className="text-light">Computer Engineering Student</h5>
         <CTA />
         <HeaderSocial />
